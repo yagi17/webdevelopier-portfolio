@@ -1,59 +1,129 @@
-*{
+/* shared styles */
+* {
     font-family: 'Open Sans', sans-serif;
 }
 
-.primary-btn{
+.primary-btn {
     border-radius: 5px;
-    background-color :#FD6E0A ;
+    background-color: #FD6E0A;
     border: 0;
     color: #ffffff;
     font-weight: 700;
-    font-size:20px;
+    font-size: 20px;
     padding: 15px 35px;
 
 }
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.section-discription {
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
 /* nav related styles */
 .nav-title {
-    color: black; 
+    color: black;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
     margin: 0px 200px;
 }
-.nav-title{
+
+.nav-title {
     color: black;
     font-size: 45px;
     font-weight: 800;
 }
 
-nav >ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
     padding: 5px;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* Header related style */
-.header{
+.header {
     background-color: #FFF8F3;
-    
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner > img{
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    color: #757575;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-discription {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-top: 0px;
+}
+
+.banner-content {
+    max-width: 585px;
+
+}
+
+/* main section styles */
+.about {
+    padding: 130px;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    
 }
