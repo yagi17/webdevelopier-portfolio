@@ -1,14 +1,7 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center ;
-}
-.text-primary{
-    color: #FD6E0A;
-}
+
 .primary-btn{
     border-radius: 5px;
     background-color :#FD6E0A ;
@@ -20,7 +13,18 @@ nav {
 
 }
 /* nav related styles */
-
+.nav-title {
+    color: black; 
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin: 0px 200px;
+}
 .nav-title{
     color: black;
     font-size: 45px;
@@ -42,5 +46,14 @@ nav a {
 }
 /* Header related style */
 .header{
+    background-color: #FFF8F3;
     
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner > img{
+    width: 500px;
 }
